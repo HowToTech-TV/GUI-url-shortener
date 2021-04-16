@@ -23,7 +23,7 @@ def mainwindow():
   label = tk.Label(root, text = "URL Shortener", bg = "Yellow", font = ("Open Sans", 30))
   label2 = tk.Label(root, text = "Please enter bitly assess token:").pack()
   BITLY_ACCESS_TOKEN = tk.StringVar()
-  BITLY_ACCESS_TOKEN.set("924dd0636ccba000c0c1c9153327e8ec6112fa34")
+  BITLY_ACCESS_TOKEN.set("Please enter your token")
   tokenentry = tk.Entry(root, textvariable=BITLY_ACCESS_TOKEN).pack()
   label3 = tk.Label(root, text = "Please enter the link:").pack()
   link = tk.StringVar()
